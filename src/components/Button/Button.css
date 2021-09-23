@@ -1,0 +1,35 @@
+.custom_btn{
+    background-color: var(--main-color) !important;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    border: 0 !important;
+    border-radius: 50px !important;
+    padding: 5px 12px !important;
+    line-height: 35px !important;
+    min-width: 10px !important;
+    outline: none !important;
+}
+
+.custom_icon{
+    color: #000;
+    background: #fff;
+    border-radius: 50px;
+    height: 35px;
+    width: 35px;
+    line-height: 25px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.MuiSvgIcon-fontSizeMedium{
+    margin-top: 6px;
+}
+
+.btn_text{
+    font-size: 14px;
+    text-align: center;
+    width: 100%;
+    margin-right: 5px;
+    margin-left: 5px;
+}

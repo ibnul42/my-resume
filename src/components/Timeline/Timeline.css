@@ -1,0 +1,48 @@
+.timeline{
+    padding: 0;
+}
+
+.timeline .timeline_header{
+    padding: 7px;
+}
+
+.timeline .timeline_firstname{
+    min-height: 80px;
+}
+
+.timeline .timeline_dotheader{
+    color: darkslategray;
+    background: var(--main-color);
+    border-radius: 50px;
+    height: 35px;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* background-color: var(--main-color);
+    font-size: small;
+    padding: 5px;
+    color: darkslategray; */
+}
+
+.timeline .timeline_dot{
+    color: black !important;
+    /* background-color: var(--main-color); */
+    background-color: yellow;
+    padding: 2px !important;
+    margin-left: 5px;
+}
+
+.timeline .separator_padding{
+    padding-left: 10px !important;
+}
+
+.timeline .timeline_content{
+    padding-top: 0px !important;
+    margin-bottom: 20px;
+}
+
+.MuiTimelineItem-missingOppositeContent::before{
+    display: none;
+}
