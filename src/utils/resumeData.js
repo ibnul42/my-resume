@@ -24,5 +24,8 @@ export default {
             text: "My Github",
             icon: <GitHub />
         }
-    }
+    },
+    about:
+        `Hi there, I'm Ibnul Ashir. I'm graduated from a university located in Dhaka, Bangladesh.\n
+        My educational background is software engineering. In technologies`,
 }

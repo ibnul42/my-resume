@@ -1,0 +1,8 @@
+.section_title_text{
+    font-weight: bolder;
+}
+
+.section_about_text{
+    color: darkslategray;
+    line-height: 20px !important;
+}

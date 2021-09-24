@@ -24,14 +24,16 @@ function App() {
         <Grid item xs>
           <Router>
             <Header />
-            <Switch>
-              <Route path={"/portfolio"} >
-                <Portfolio />
-              </Route>
-              <Route path={"/"}>
-                <Resume />
-              </Route>
-            </Switch>
+            <div className="main-container container_shadow">              
+              <Switch>
+                <Route path={"/portfolio"} >
+                  <Portfolio />
+                </Route>
+                <Route path={"/"}>
+                  <Resume />
+                </Route>
+              </Switch>
+            </div>
           </Router>
           <Footer />
         </Grid>

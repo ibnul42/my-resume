@@ -1,0 +1,25 @@
+.footer {
+  margin-bottom: 30px;
+  background-color: #1e1e1e;
+  color: white;
+  padding: 20px 15px;
+  border-radius: 6px;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer_name{
+    color: rgba(255, 255, 255, 0.70);
+}
+
+.footer_copyright {
+    color: #9c9c9c;
+}
+
+.footer_copyright a {
+    text-decoration: none;
+    color: var(--main-color);
+}
