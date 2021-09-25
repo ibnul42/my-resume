@@ -10,6 +10,10 @@
     margin-top: 30px !important;    
 }
 
+.mt_20{
+    margin-top: 20px !important;
+}
+
 .mb_30{
     margin-bottom: 30px !important;
 }
@@ -20,6 +24,18 @@
 
 .pb_45{
     padding: 45px !important;
+}
+
+.pb_10{
+    padding: 10px !important;
+}
+
+.pl_30{
+    padding-left: 30px !important;
+}
+
+.pt_{
+    padding-top: 25px !important;
 }
 
 @media (max-width: 991px) {

@@ -4,6 +4,7 @@
 
 .timeline .timeline_header{
     padding: 7px;
+    font-weight: 600;
 }
 
 .timeline .timeline_firstname{
@@ -17,7 +18,7 @@
     height: 35px;
     width: 35px;
     display: flex;
-    justify-content: center;
+    justify-content: center ;
     align-items: center;
 
     /* background-color: var(--main-color);
@@ -45,4 +46,8 @@
 
 .MuiTimelineItem-missingOppositeContent::before{
     display: none;
+}
+
+.MuiSvgIcon-root{
+    margin-bottom: 6px !important;
 }

@@ -6,3 +6,86 @@
     color: darkslategray;
     line-height: 20px !important;
 }
+
+.titmeline_title{
+    color: black !important;
+    font-weight: 600 !important;
+    font-size: 1.3rem !important;
+}
+
+.titmeline_date{
+    line-height: 1.60 !important;
+    letter-spacing: 0.1em !important;
+    
+}
+
+.timeline_description{
+    color: #787878 !important;
+}
+
+.service{
+    text-align: center;height: 100%;
+}
+
+.service_icon > .MuiSvgIcon-root{
+    font-size: 48px !important;
+    margin-left: 0 !important;
+    font-weight: 300 !important;
+    color: darkslategray !important;
+}
+
+.service_title{
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    line-height: 35px !important;
+    text-align: center !important;
+}
+
+.service_description{
+    color: #9c7d7d !important;
+    border-color: var(--main-color) !important;
+    margin-right: 5px !important;
+    text-align: center !important;
+}
+
+.all_skills{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.all_skills .MuiGrid-root{
+    min-width: 30%;
+    margin-bottom: 20px;
+}
+
+.skill{
+    border-radius: 1px;
+    padding: 20px;
+    box-shadow: 0px 0px 48px 0px rgba(4, 6, 4, 0.08) !important;
+    min-height: 180px;
+    height: 100%;
+    margin-bottom: 10px;
+}
+
+.skill_title{
+    font: 14px !important;
+    font-weight: 700 !important;
+    line-height: 32px !important;
+    text-transform: uppercase;
+    letter-spacing: 0.1px !important;
+}
+
+.skill_description{
+    display: flex;
+    align-items: center;
+}
+
+.skill_description .MuiTimelineDot-outlined {
+    background-color: var(--main-color);
+}
+
+.skill_description span{
+    margin-left: 5px !important;
+}
